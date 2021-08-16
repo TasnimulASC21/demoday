@@ -95,12 +95,18 @@ footer {
     background: red;
     margin: auto;
     width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Helvetica;
 }
 
 #home_ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    
 }
 
 .home_li {
@@ -111,6 +117,12 @@ footer {
 #home_footer {
     background: black;
     padding: 10px 20px;
+}
+
+#hub {
+    color: darkblue;
+    font-weight: bold;
+    font-family: Helvetica;
 }
 
 /* Bordered form */
@@ -159,7 +171,7 @@ form {
   
   /* Avatar image */
   img.avatar {
-    width: 19%;
+    width: 15%;
     border-radius: 50%;
   }
   
@@ -184,3 +196,9 @@ form {
       width: 100%;
     }
   }
+
+/* header for the Tutorial page*/
+.tutorial-header {
+    display: flex;
+    flex-direction: column;
+}
